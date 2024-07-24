@@ -36,7 +36,7 @@ public class EmailService {
                         "You can find your QR Code at attachments. Might be handy to event entrance.\n" +
                         "We hope you have a good time at your event.\n" +
                         "Thank you for choosing us,\n" +
-                        "Event Marine Team.";
+                        "QEvent Team.";
     }
 
     public EmailService(EmailConfiguration emailConfiguration) {
@@ -80,7 +80,7 @@ public class EmailService {
 
         sendEmailWithAttachment(
                 user.getEmail(),
-                "Event Marine: Attendance to %s".formatted(event.getTitle()),
+                "QEvent: Attendance to %s".formatted(event.getTitle()),
                 text,
                 "QR_Code.png",
                 qrcodePath

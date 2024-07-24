@@ -56,7 +56,7 @@ const GuestAppBar = () => {
                         className={classes.title}
                         href="/"
                     >
-                        Event Marine
+                        QEvent
                     </Link>
 
 

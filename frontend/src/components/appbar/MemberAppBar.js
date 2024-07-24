@@ -163,7 +163,7 @@ const MemberAppBar = (props) => {
                         href={"/"}
                     >
                         <Typography variant="h6" noWrap>
-                            Event Marine
+                            QEvent
                         </Typography>
                     </Link>
 

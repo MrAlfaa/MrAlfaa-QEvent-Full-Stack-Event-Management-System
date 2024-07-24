@@ -15,6 +15,11 @@ const PrivateRoute = ({component: Component, authType, ...rest}) => {
 
     }
 
+    // const authHandler = () => {
+    //     return <Component {...rest.props} />;
+    // }
+    
+
     return (
 
         <Route {...rest} render={() => authHandler()}/>

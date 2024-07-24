@@ -1,7 +1,5 @@
 package com.mralfaa.qevent.service.impl;
 
-
-
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -31,7 +29,6 @@ public class LoginService implements ILoginService {
 
     @Override
     public MessageResponse<LoginResponse> login(LoginRequest loginRequest) {
-
         UsernamePasswordAuthenticationToken token =
                 new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword());
 
@@ -48,6 +45,7 @@ public class LoginService implements ILoginService {
         } catch (Exception ex) {
             return new MessageResponse<>(Message.NOT_FOUND_USER, null);
         }
-
     }
+
+    
 }

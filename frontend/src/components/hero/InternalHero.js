@@ -41,7 +41,7 @@ const InternalHero = (props) => {
                         Welcome to
                     </Typography>
                     <Typography color="inherit" align="center" variant="h2" marked="center" style={{fontWeight: 400}}>
-                        Event Marine
+                        QEvent
                     </Typography>
                 </Grid>
                 <Grid item>

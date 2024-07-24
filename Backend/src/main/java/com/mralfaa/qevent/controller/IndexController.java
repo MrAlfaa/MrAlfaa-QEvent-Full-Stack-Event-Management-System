@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServletRequest;
 @Controller
 public class IndexController {
 
-    @RequestMapping(value = {"/", "/{x:[\\w\\-]+}", "/{x:^(?!api$).*$}/**/{y:[\\w\\-]+}"})
+    @RequestMapping(value = {"/", "/{x:[\\w\\-]+}"})
     public String index(HttpServletRequest httpServletRequest) {
         return "index.html";
     }
