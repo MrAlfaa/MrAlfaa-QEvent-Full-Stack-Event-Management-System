@@ -36,3 +36,5 @@ The backend will start on `http://localhost:8080`
 
 3. Start the development server:`npm start`
 4. The frontend will be available on `http://localhost:3000`
+
+<img src="https://t.bkit.co/w_66a1d1c7db357.gif" />
